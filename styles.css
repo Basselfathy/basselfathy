@@ -21,7 +21,7 @@ button { font: inherit; }
 .brand span, .hero h1 span { color: var(--accent); }
 nav { display: flex; gap: 28px; font-size: 14px; color: var(--muted); }
 nav a:hover, .text-link:hover, .project-card a:hover { color: var(--accent); }
-.header-cta { border: 1px solid var(--line); padding: 9px 14px; font-size: 13px; border-radius: 7px; }
+.header-cta { border: 1px solid var(--line); padding: 9px 14px; font-size: 13px; border-radius: 7px; visibility: hidden;}
 .header-cta:hover { border-color: var(--accent); color: var(--accent); }
 
 .hero { padding: 130px 0 110px; max-width: 1050px; }
